@@ -106,7 +106,7 @@ section {
 }
 
 body {
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 ol,
@@ -161,7 +161,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 .Site {
