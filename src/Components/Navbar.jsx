@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   ResponsiveMenu() {
@@ -34,24 +34,24 @@ class Navbar extends Component {
       <header>
         <div className="navigation-container">
           <div id="nav-left">
-            <Link to="/" id="navigation-logo" className="nav-active">
+            <Link to="/" id="navigation-logo">
               Rico Distribution
             </Link>
-            <NavLink to="/about" className="navigation-item">
+            <Link to="/about" className="navigation-item">
               About
-            </NavLink>
-            <NavLink to="/products" className="navigation-item">
+            </Link>
+            <Link to="/products" className="navigation-item">
               Products
-            </NavLink>
-            <NavLink to="/water" className="navigation-item">
+            </Link>
+            <Link to="/water" className="navigation-item">
               Water
-            </NavLink>
-            <NavLink to="/contact" className="navigation-item">
+            </Link>
+            <Link to="/contact" className="navigation-item">
               Contact
-            </NavLink>
-            <NavLink to="/join" className="navigation-item">
+            </Link>
+            <Link to="/join" className="navigation-item">
               Join
-            </NavLink>
+            </Link>
           </div>
           <div onClick={this.ResponsiveMenu} id="nav-hamburger">
             <div className="hamburger" />
