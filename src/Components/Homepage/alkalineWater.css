@@ -1,0 +1,96 @@
+@import "../../CssVariables.css";
+
+.alkaline-container {
+  background-color: var(--dark-ocean-color);
+  height: auto;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.features-container {
+  width: 100%;
+}
+
+.alkaline-summary {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.alkaline-feature {
+  width: 90%;
+  margin-top: 1.5rem;
+}
+
+.feature-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 1rem;
+}
+
+.alkaline-title {
+  font-family: var(--headline-font);
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+}
+
+.alkaline-subtitle {
+  font-family: var(--headline-font);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.alkaline-text {
+  font-family: var(--paragraph-font);
+  font-size: 1rem;
+  color: white;
+}
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (portrait phones, 376px and up) */
+
+@media (min-width: 400px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  .alkaline-feature {
+    width: 215px;
+  }
+
+  .alkaline-summary {
+    width: 60%;
+  }
+
+  .alkaline-title {
+    font-size: 3rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  .alkaline-feature {
+    width: 250px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+  .alkaline-summary {
+    width: 50%;
+  }
+}
+
+/* Extra large desktops (large desktops, 1500px and up) */
+
+@media (min-width: 1500px) {}
