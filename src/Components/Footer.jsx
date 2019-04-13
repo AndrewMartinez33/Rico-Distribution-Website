@@ -43,7 +43,7 @@ const Footer = () => {
                 />
               </div>
               <input
-                className="footer-submit"
+                className="btn btn-danger footer-submit"
                 id="contact-submit"
                 type="submit"
                 value="Subscribe"
