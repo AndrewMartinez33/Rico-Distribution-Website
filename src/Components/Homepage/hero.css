@@ -10,10 +10,10 @@
 .hero-right-angle {
   width: 0px;
   height: 0px;
-  border-right: 100vw solid var(--dark-ocean-color);
+  border-right: 99vw solid var(--dark-ocean-color);
   border-top: 70px solid transparent;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   right: 0;
   opacity: 1;
 }

@@ -14,7 +14,7 @@
   height: 0px;
   border-right: 100vw solid var(--dark-ocean-color);
   border-bottom: 70px solid transparent;
-  top: 0;
+  top: -1px;
   left: 0;
   opacity: 1;
 }
