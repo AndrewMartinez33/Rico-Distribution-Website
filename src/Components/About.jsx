@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AboutSection from "./Aboutpage/aboutSection";
 
 const About = () => {
-  return <h1>About</h1>;
+  return <AboutSection />;
 };
 
 export default About;
