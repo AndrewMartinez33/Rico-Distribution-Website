@@ -218,7 +218,7 @@ html {
 .btn {
   width: auto;
   height: auto;
-  padding: 5px 20px;
+  padding: 7px 20px;
   margin: 10px;
   border-radius: 3px;
   font-family: var(--paragraph-font);
