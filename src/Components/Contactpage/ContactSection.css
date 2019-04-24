@@ -1,6 +1,41 @@
 @import "../../CssVariables.css";
 
+.contact-form-container {
+  width: 100%;
+  margin: 1rem 0;
+}
 
+.contact-form-header {
+  width: 95%;
+}
+
+.contact-title {
+  font-family: var(--headline-font);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact-text {
+  font-family: var(--paragraph-font);
+  font-size: 1.1rem;
+  margin: .5rem 0;
+}
+
+.contact-form-inputs {
+  width: 95%;
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 1rem;
+  padding: 5px 3px;
+}
+
+.contact-form-inputs::placeholder {
+  font-family: var(--headline-font);
+  color: var(--medium-ocean-color);
+}
+
+.contact-button-container {
+  width: 95%;
+}
 
 /* MEDIA QUERIES */
 
@@ -10,19 +45,67 @@
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  .contact-form-inputs {
+    width: 75%;
+  }
+
+  .contact-button-container {
+    width: 75%;
+  }
+
+  .contact-form-header {
+    width: 75%;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .contact-form-inputs {
+    width: 60%;
+  }
+
+  .contact-button-container {
+    width: 60%;
+  }
+
+  .contact-form-header {
+    width: 60%;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .contact-form-inputs {
+    width: 50%;
+  }
+
+  .contact-button-container {
+    width: 50%;
+  }
+
+  .contact-form-header {
+    width: 50%;
+  }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .contact-form-inputs {
+    width: 40%;
+  }
+
+  .contact-button-container {
+    width: 40%;
+  }
+
+  .contact-form-header {
+    width: 40%;
+  }
+}
 
 /* Extra large desktops (large desktops, 1500px and up) */
 
